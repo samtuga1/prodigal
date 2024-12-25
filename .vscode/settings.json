@@ -1,0 +1,8 @@
+{
+    "dart.flutterSdkPath": "/Users/admin/development/flutter_3.24.5",
+    "dart.sdkPath": "/Users/admin/development/flutter_3.24.5/bin/cache/dart-sdk",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
+}
