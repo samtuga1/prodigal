@@ -50,12 +50,14 @@ The project is organized into the following key directories:
    flutter pub get
    ```
 
-4. Run build runner:
+4. Unzip the cfg.zip and place the cfg folder inside the assets folder.
+
+5. Run build runner:
    ```bash
    dart run build_runner build --delete-conflicting-outputs
    ```
 
-5. Run the app:
+6. Run the app:
    - For development mode:
      ```bash
      flutter run -t lib/main_dev.dart
