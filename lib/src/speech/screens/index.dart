@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:prodigal/gen/assets.gen.dart';
+import 'package:prodigal/generated/assets.gen.dart';
 import 'package:prodigal/src/speech/screens/speech2text_screen.dart';
 import 'package:prodigal/src/speech/screens/text2speech_screen.dart';
 import 'package:prodigal/src/speech/widgets/speech_item.dart';
