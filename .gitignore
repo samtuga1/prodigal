@@ -42,5 +42,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-/assets/cfg/dev_config.json
-/assets/cfg/prod_config.json
+/assets/cfg
