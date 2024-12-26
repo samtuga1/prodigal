@@ -4,7 +4,7 @@
 This Flutter application is a multi-module project designed to provide advanced functionalities such as speech recognition, voice chat, and dynamic content rendering. The application focuses on creating an interactive user experience by integrating voice-based tasks and learning modules.
 
 ## Technologies and Libraries Used
-- **Flutter**: Framework for building the application.
+- **Flutter**: Framework for building the application. (Version 3.24.5)
 - **Dart**: Programming language for Flutter.
 - **Audio Libraries**:
   - `flutter_audio_capture`: Capturing real-time audio.
@@ -73,6 +73,9 @@ The project is organized into the following key directories:
 - **Real-time Speech Recognition**: Converts spoken words into text.
 - **Text-to-Speech Integration**: Reads out text input by the user.
 - **Visualization**: Provides frequency spectrum visualizations.
+  
+NB: Android now has an issue with the speech to text, where it is unable to recognize the speech.
+    This is a very common issue that exists in most androids. I will be able to solve the issue if I look into it critically with time.
 
 ### Voice Chat Module
 - **Live Audio Streaming**: Facilitates real-time voice communication.
