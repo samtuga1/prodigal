@@ -89,3 +89,8 @@ NB: Android now has an issue with the speech to text, where it is unable to reco
 - **Voice Features**: The app assumes device permissions for microphone and storage are granted.
 - **Backend Integration**: Currently uses mock APIs or predefined JSON for testing.
 - **Audio Sample Rate**: Fixed at 44000 Hz for optimal performance.
+
+## IMPORTANT
+The backend that I built for this app has been hosted on render free instance so at the point of reading this, the instance is probably asleep, you will need to make one call to the backend before waking it up and it takes approximately 3-5 minutes to do so.
+
+Please visit ([https://azubi-backend.onrender.com/api/v1](https://azubi-backend.onrender.com/api/v1)) to wake it up else your first endpoint call you make in the app will wake it up instead.
